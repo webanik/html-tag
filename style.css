@@ -1,0 +1,95 @@
+/*========================*/
+/*=== BASIC SETUP===*/
+/*========================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li {
+  list-style-type: none;
+}
+
+/*========================*/
+/*=== REUSABLE COMPONENTS===*/
+/*========================*/
+
+.row {
+  margin: auto;
+  max-width: 934px;
+}
+
+/* BUTTON*/
+
+.btn {
+  background: rgb(139, 141, 33);
+  color: #fff;
+  padding: 18px 28px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 192px;
+  border-radius: 44px;
+}
+/*========================*/
+/*=== HEADER SECTION===*/
+/*========================*/
+
+header {
+  background: url(images/c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 85vh;
+  position: relative;
+}
+.logo {
+  height: 106px;
+  width: auto;
+  margin-top: 35px;
+  float: left;
+}
+
+/*========================*/
+/*=== MAIN NAVIGATION===*/
+/*========================*/
+
+.mainnav {
+  float: right;
+  margin-top: 35px;
+}
+
+.mainnav li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.mainnav li:first-child {
+  margin-left: 0;
+}
+.mainnav li a:link,
+.mainnav li a:visited {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  background: rgba(128, 255, 0, 0.014);
+  border-radius: 4px;
+  padding: 4px 10px;
+  transition: 0.3s;
+}
+
+.mainnav li:hover a:link,
+.mainnav li:hover a:visited {
+  background: rgba(152, 204, 9, 0.863);
+}
+.active {
+  background: rgba(152, 204, 9, 0.863);
+  border-radius: 5px;
+}
+
+.hero-text-box {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(15%, 19%);
+}
